@@ -1,9 +1,9 @@
 const autoprefixer = require("autoprefixer");
 // const postcssImport = require("postcss-import");
 // const purgecss = require("@fullhuman/postcss-purgecss");
-const IS_PROD = ["production", "prod"].includes(process.env.NODE_ENV);
+const isProd = ["production", "prod"].includes(process.env.NODE_ENV);
 let plugins = [];
-if (IS_PROD) {
+if (isProd) {
   // 去除多余css
   // plugins.push(postcssImport);
   // plugins.push(

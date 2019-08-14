@@ -19,8 +19,7 @@ module.exports = {
     },
     {
       value: 'refactor',
-      name:
-        'refactor: A code change that neither fixes a bug nor adds a feature'
+      name: 'refactor: A code change that neither fixes a bug nor adds a feature'
     },
     {
       value: 'test',
@@ -28,8 +27,7 @@ module.exports = {
     },
     {
       value: 'chore',
-      name:
-        "chore:    Changes that don't modify src or test files. Such as updating build tasks, package manager"
+      name: "chore:    Changes that don't modify src or test files. Such as updating build tasks, package manager"
     },
     {
       value: 'revert',

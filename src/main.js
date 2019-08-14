@@ -1,21 +1,23 @@
-import Vue from "vue";
-import App from "./App.vue";
-import router from "./router";
-import store from "./store";
-import "./registerServiceWorker";
+import '@babel/polyfill'
 
-Vue.config.productionTip = false;
+import Vue from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+import './registerServiceWorker'
 
-import moment from "moment";
-import "moment/locale/zh-cn";
+Vue.config.productionTip = false
 
-console.log(moment().format("dddd"));
+import moment from 'moment'
+import 'moment/locale/zh-cn'
+
+console.log(moment().format('dddd'))
 
 new Vue({
   router,
   store,
   render: h => h(App),
   mounted() {
-    // document.dispatchEvent(new Event("render-event"));
+    document.dispatchEvent(new Event('render-event'))
   }
-}).$mount("#app");
+}).$mount('#app')
