@@ -1,3 +1,3 @@
-# vue-cli3-config
+# vue-cli4-config
 
-### Vue-cli3 config for vue project.
+### Vue-cli4 config for vue project.
